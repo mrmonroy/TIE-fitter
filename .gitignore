@@ -1,0 +1,8 @@
+pca_maps
+std_maps/tests
+std_maps/cubic
+std_maps/all_maps
+std_maps/weights_validation/over-correction_bias/output_01
+std_maps/weights_validation/over-correction_bias/output_02
+std_maps/weights_validation/under-correction_bias/output_01
+std_maps/weights_validation/under-correction_bias/output_01

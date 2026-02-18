@@ -1,0 +1,34 @@
+#!/bin/bash
+#wval_demo07_test3 can take a lot of time for some z-bins in some mocks. 
+#Use this bash script to launch several (max) jobs. Once a job has finished,
+#it launches a new job without waiting for the rest of them to finish
+
+#max = maximum number of jobs to be run at the same time
+#sec = waiting time to check whether a job has finished
+#minnumber / maxnumber = it runs from/to which mock file (python numbering, that is,starting from 0)
+
+uid=`whoami`
+max=10
+sec=2
+
+minnumber=100
+maxnumber=999
+
+number=$minnumber
+while [ $number -le $maxnumber ]; do
+   	
+	cmd="python3 wval_mark_omega_02_calc_wtheta_mocks.py $number" #job
+	echo $cmd
+	$cmd > output_02/output_mock$number.log &
+
+	    while true; do
+		nproc=`ps -u ${uid} | grep "python" | wc -l`
+		echo ${nproc} ${max}
+		if [ ${nproc} -lt ${max} ]; then
+		    break
+		fi
+		echo "${nproc} in queue of $max. Waiting ${sec} seconds ...";
+		sleep ${sec}
+	    done
+	let number=number+1 
+done

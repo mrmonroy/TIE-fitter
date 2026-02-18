@@ -1,0 +1,36 @@
+Reading config file
+Working with Y3
+twopoint could not be found. some file saving functions will not work
+twopoint could not be found. some file savin functions will not work
+psydocl had an import error
+Not skipping any z-bin
+finalbins =  [0, 1, 2, 3, 4, 5]
+/pool/cosmo01_data1/des/y6_lss/maglim/y6_maglim_final_selection/mark_omega/std_maps/weights_validation/under-correction_bias/mock_wtheta_std19/
+Loading degraded mask
+no ZMAX column loaded
+Calculating w(theta) for weighted data
+0 0
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 19.992619037628174s
+1 1
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 19.212347745895386s
+2 2
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 19.24292778968811s
+3 3
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 19.278308868408203s
+4 4
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 19.33301591873169s
+5 5
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 19.25642728805542s
+Execution time (minutes):  1.9786343296368918

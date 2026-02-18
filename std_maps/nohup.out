@@ -1,0 +1,89 @@
+Delta_wtheta_methods_comparison.py:107: RuntimeWarning: divide by zero encountered in true_divide
+  theta, wtheta_pix = lsssys.corr2pt(galmap,galmap,w1=None,w2=None,nthetabins=nthetabins,thetamax=thetamax,thetamin=thetamin, scale1=1./galmap.fracdet, weights=None, scale2=1./galmap.fracdet, weights2=None, bin_slop=bin_slop, fracweights=True,fracweights2=True, num_threads = num_threads)
+Reading config file
+Working with Y3
+twopoint could not be found. some file saving functions will not work
+twopoint could not be found. some file savin functions will not work
+psydocl had an import error
+no ZMAX column loaded
+no_weights
+ATTENTION, creating maglimy6 object. Corresponding attributes will be assumed
+no ZLUM column in file
+0
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 807.547306060791s
+1
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 807.7631049156189s
+2
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 807.5777471065521s
+3
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 830.6862504482269s
+4
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 811.2193462848663s
+5
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 818.3827195167542s
+isd_2.0cubic_sig
+ATTENTION, creating maglimy6 object. Corresponding attributes will be assumed
+no ZLUM column in file
+0
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 817.1465196609497s
+1
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 820.0384392738342s
+2
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 810.1070387363434s
+3
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 818.9114663600922s
+4
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 820.4002122879028s
+5
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 809.4342865943909s
+mark_omega_std19
+ATTENTION, creating maglimy6 object. Corresponding attributes will be assumed
+no ZLUM column in file
+0
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 808.8823969364166s
+1
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 809.26229596138s
+2
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 816.4995636940002s
+3
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 808.6785974502563s
+4
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 809.5658831596375s
+5
+corr2pt using bin_slop = 0.01
+corr2pt: auto
+corr2pt took 809.9661178588867s
